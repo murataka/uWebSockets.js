@@ -11,7 +11,15 @@
 
 ### :bulb: In a nutshell
 
-Think of it as a complete replacement to both Express.js and Socket.IO, written entirely in C/C++ for maximum performance and reliability. Browse the [documentation](https://unetworking.github.io/uWebSockets.js/generated/). There are tons of [examples](examples) but here's the gist of it all:
+µWebSockets.js is a C++ implementation of the Http/WebSocket protocols for Node.js, easy to use from JavaScript. Being written in native code directly targeting the Linux kernel makes it faster than anything you can script inside Node.js. Technically speaking it is a binding to [µWebSockets](https://github.com/uNetworking/uWebSockets), so make sure to read that page as well.
+
+Demonstrative benchmark as of 2020-06-09:
+
+![](misc/chart.png)
+
+Conceptually, think of it as a complete replacement to both Express.js and Socket.IO. It carries both a router and pub/sub support.
+
+Browse the [documentation](https://unetworking.github.io/uWebSockets.js/generated/). There are tons of [examples](examples) but here's the gist of it all:
 
 ```javascript
 /* Non-SSL is simply App() */
