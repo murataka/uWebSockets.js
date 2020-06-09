@@ -11,13 +11,15 @@
 
 ### :muscle: Unfair advantage
 
-µWebSockets.js is a C++ implementation of the Http/WebSocket protocols for Node.js, easy to use from JavaScript without the need for a compiler. Read more over at [µWebSockets](https://github.com/uNetworking/uWebSockets), the main repository.
+µWebSockets.js is a C++ implementation of the Http/WebSocket protocols for Node.js, easy to use from JavaScript. Being written in native code directly targeting the Linux kernel makes it way faster than what any JavaScript implementation can be:
 
 ![](misc/chart.png)
 
-### :bulb: In a nutshell
+Install with `npm install uNetworking/uWebSockets.js#v18.1.0` or any such release. No compiler needed.
 
-Think of it as a complete replacement to both Express.js and Socket.IO. It carries both a router and pub/sub support. Browse the [documentation](https://unetworking.github.io/uWebSockets.js/generated/). There are tons of [examples](examples) but here's the gist of it all:
+### :bulb: Familiar face
+
+Think of it as a complete replacement to both Express.js and Socket.IO. It carries both a router and pub/sub support and you can read more over at [the main repo](https://github.com/uNetworking/uWebSockets). Browse the [documentation](https://unetworking.github.io/uWebSockets.js/generated/). There are tons of [examples](examples) but here's the gist of it all:
 
 ```javascript
 /* Non-SSL is simply App() */
@@ -47,7 +49,3 @@ require('uWebSockets.js').SSLApp({
   
 });
 ```
-
-### :rocket: Ready all thrusters
-
-Install with `npm install uNetworking/uWebSockets.js#v18.1.0` or any such [release](https://github.com/uNetworking/uWebSockets.js/releases). No compiler needed.
