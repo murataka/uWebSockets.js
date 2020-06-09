@@ -11,7 +11,7 @@
 
 ### :muscle: Unfair advantage
 
-µWebSockets.js is a C++ implementation of the Http/WebSocket protocols for Node.js, easy to use from JavaScript. Red more over at [µWebSockets](https://github.com/uNetworking/uWebSockets), the main repository.
+µWebSockets.js is a C++ implementation of the Http/WebSocket protocols for Node.js, easy to use from JavaScript without the need for a compiler. Read more over at [µWebSockets](https://github.com/uNetworking/uWebSockets), the main repository.
 
 ![](misc/chart.png)
 
@@ -51,16 +51,3 @@ require('uWebSockets.js').SSLApp({
 ### :rocket: Ready all thrusters
 
 Install with `npm install uNetworking/uWebSockets.js#v18.1.0` or any such [release](https://github.com/uNetworking/uWebSockets.js/releases). No compiler needed.
-
-![](misc/features_strip.png)
-
-Real-world tests over TLS 1.3 and Ethernet puts us **5x** as efficient as Socket.IO, **2x** as efficient as websockets/ws.
-
-### :dollar: Pay what you want
-Commercially developed on a sponsored/consulting basis; BitMEX, Bitfinex and Coinbase are current or previous sponsors. Contact [me, the author](https://github.com/alexhultman) for support, feature development or consulting/contracting.
-
-![](https://raw.githubusercontent.com/uNetworking/uWebSockets/master/misc/2018.png)
-
-### :mortar_board: Know thy legal matters
-
-*µWebSockets.js is intellectual property licensed Apache 2.0 with limitations on trademark use. Forks must be clearly labelled as such and must not be confused with the original.*
