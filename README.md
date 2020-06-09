@@ -9,17 +9,15 @@
 </div>
 <br><br>
 
-### :bulb: In a nutshell
+### :muscle: Unfair advantage
 
-µWebSockets.js is a C++ implementation of the Http/WebSocket protocols for Node.js, easy to use from JavaScript. Being written in native code directly targeting the Linux kernel makes it faster than anything you can script inside Node.js. Technically speaking it is a binding to [µWebSockets](https://github.com/uNetworking/uWebSockets), so make sure to read that page as well.
-
-Demonstrative benchmark as of 2020-06-09:
+µWebSockets.js is a C++ implementation of the Http/WebSocket protocols for Node.js, easy to use from JavaScript. Red more over at [µWebSockets](https://github.com/uNetworking/uWebSockets), the main repository.
 
 ![](misc/chart.png)
 
-Conceptually, think of it as a complete replacement to both Express.js and Socket.IO. It carries both a router and pub/sub support.
+### :bulb: In a nutshell
 
-Browse the [documentation](https://unetworking.github.io/uWebSockets.js/generated/). There are tons of [examples](examples) but here's the gist of it all:
+Think of it as a complete replacement to both Express.js and Socket.IO. It carries both a router and pub/sub support. Browse the [documentation](https://unetworking.github.io/uWebSockets.js/generated/). There are tons of [examples](examples) but here's the gist of it all:
 
 ```javascript
 /* Non-SSL is simply App() */
