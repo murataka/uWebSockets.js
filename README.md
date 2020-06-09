@@ -15,7 +15,7 @@
 
 ![](misc/chart.png)
 
-Install with `npm install uNetworking/uWebSockets.js#v18.1.0` or any such release. No compiler needed.
+* Install with `npm install uNetworking/uWebSockets.js#v18.1.0` or any such release. No compiler needed.
 
 ### :bulb: Familiar face
 
@@ -49,3 +49,5 @@ require('uWebSockets.js').SSLApp({
   
 });
 ```
+
+* µWebSockets.js is the Node.js binding to µWebSockets. Read more over at [µWebSockets](https://github.com/uNetworking/uWebSockets).
